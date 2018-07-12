@@ -13,6 +13,7 @@
 		9DCD54511C926BFD002F2E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD544F1C926BFD002F2E69 /* Main.storyboard */; };
 		9DCD54531C926BFD002F2E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD54521C926BFD002F2E69 /* Assets.xcassets */; };
 		9DCD54561C926BFD002F2E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD54541C926BFD002F2E69 /* LaunchScreen.storyboard */; };
+		9DCD545F1C926C7D002F2E69 /* Walker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD545E1C926C7D002F2E69 /* Walker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9DCD54521C926BFD002F2E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCD54551C926BFD002F2E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCD54571C926BFD002F2E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCD545D1C926C7D002F2E69 /* Walker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Walker.h; sourceTree = "<group>"; };
+		9DCD545E1C926C7D002F2E69 /* Walker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Walker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				9DCD54491C926BFD002F2E69 /* AppDelegate.h */,
 				9DCD544A1C926BFD002F2E69 /* AppDelegate.m */,
+				9DCD545D1C926C7D002F2E69 /* Walker.h */,
+				9DCD545E1C926C7D002F2E69 /* Walker.m */,
 				9DCD544C1C926BFD002F2E69 /* ViewController.h */,
 				9DCD544D1C926BFD002F2E69 /* ViewController.m */,
 				9DCD544F1C926BFD002F2E69 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCD544E1C926BFD002F2E69 /* ViewController.m in Sources */,
+				9DCD545F1C926C7D002F2E69 /* Walker.m in Sources */,
 				9DCD544B1C926BFD002F2E69 /* AppDelegate.m in Sources */,
 				9DCD54481C926BFC002F2E69 /* main.m in Sources */,
 			);

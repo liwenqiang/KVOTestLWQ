@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Walker.h"
 
+@class Walker;
 @interface ViewController : UIViewController
+{
+    Walker *_walker;
+    UILabel *_ageLabel;
+}
 
+@property (nonatomic, strong) Walker *walker;
 
 @end
 
